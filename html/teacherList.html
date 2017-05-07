@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="../pic/favicon.ico">
+    <title>教员信息列表 | 亳州家教网</title>
+    <meta name="keywords" content="亳州，家教">
+    <meta name="description" content="亳州家教网是一家专门致力于家教的网站，学生和家长可以在亳州家教网请到家教，教师也能在亳州家教网找到学生。">
+    <meta name="author" content="有间工作室">
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="../../dist/css/navbar.css" rel="stylesheet">-->
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse bg-inverse navbar-toggleable-md">
+      <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleContainer" aria-controls="navbarsExampleContainer" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <img src="../pic/education.png">
+        <p>&nbsp&nbsp</p>
+        <a class="navbar-brand" href="index.html">亳州家教网&nbsp;&nbsp;&nbsp;</a>
+        <div class="col-1"></div>
+        <div class="collapse navbar-collapse" id="navbarsExampleContainer">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">首页&nbsp&nbsp</a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdownTutor" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">家教&nbsp&nbsp</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown02">
+                <a class="dropdown-item" href="inviteTutor.html">请家教</a>
+                <a class="dropdown-item" href="tutorList.html">做家教</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdownClass" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">培训&nbsp&nbsp</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown02">
+                <a class="dropdown-item" href="trainingClass.html">培训班</a>
+                <a class="dropdown-item" href="remedialClass.html">辅导班</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutme.html">关于</a>
+            </li>
+          </ul>
+          <a href="login.html"><button class="btn btn-outline-info my-2 my-sm-0" type="submit">登录</button></a>
+        </div>
+      </div>
+    </nav>
+    <div class="py-5 section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h4 class="mb-4 text-info text-uppercase" style="text-align: center">教员信息列表<br></h4>
+            <hr>
+          </div>
+          <div class="col-md-2">
+            <div class="form-inline">
+              <label class="form-label">教员性别&nbsp&nbsp</label>
+              <select class="form-control">
+                <option value="男性">男性</option>
+                <option value="女性">女性</option>
+                <option value="不限">不限</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="form-inline">
+              <label class="form-label">教员身份&nbsp&nbsp</label>
+              <select class="form-control">
+                <option value="不限">不限</option>
+                <option value="本科一年级">本一</option>
+                <option value="本科二年级">本二</option>
+                <option value="本科三年级">本三</option>
+                <option value="本科四年级">本四</option>
+                <option value="硕士一年级">硕一</option>
+                <option value="硕士二年级">硕二</option>
+                <option value="硕士三年级">硕三</option>
+                <option value="小学教师">小学</option>
+                <option value="初中教师">初中</option>
+                <option value="初中教师">高中</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="form-inline">
+              <label class="form-label">所在区域&nbsp&nbsp</label>
+              <select class="form-control">
+                <option value="不限">不限</option>
+                <option value="谯城区">谯城区</option>
+                <option value="涡阳县">涡阳县</option>
+                <option value="蒙城县">蒙城县</option>
+                <option value="利辛县">利辛县</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="form-inline">
+              <label class="form-label">擅长科目&nbsp&nbsp</label>
+              <select class="form-control">
+                <option value="不限">不限</option>
+                <option value="语文">语文</option>
+                <option value="数学">数学</option>
+                <option value="英语">英语</option>
+                <option value="奥数">奥数</option>
+                <option value="地理">地理</option>
+                <option value="生物">生物</option>
+                <option value="化学">化学</option>
+                <option value="物理">物理</option>
+                <option value="计算机">计算机</option>
+                <option value="小提琴">小提琴</option>
+                <option value="钢琴">钢琴</option>
+                <option value="美术">美术</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="form-inline">
+              <label class="form-label">时间&nbsp&nbsp</label>
+              <input type="day" class="form-control" placeholder="">
+            </div>
+          </div>
+          <div class="col-md-1">
+            <a href="#" class="btn btn-info">搜索</a>
+          </div>
+        </div>
+        <hr>
+      </div>
+      
+      <div class="pi-draggable section " draggable="true">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card my-2">
+                <div class="card-block">
+                  <a href="teacherDetail.html" target="_blank">
+                    <h5 class="card-subtitle text-info">‏@豆豆 </h5>
+                  </a>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <p class="card-text  mt-3">
+                        <b>上课时间：</b>周一到周日晚上<br/>
+                        <b>所在城区：</b>红灯区<br/>
+                        <b>教员身份：</b>幼儿园<br/>
+                        <b>擅长课程：</b>英语、数学、物理
+                      </p>
+                    </div>
+                    <div class="col-md-4">
+                      <img class="rounded-circle  mx-auto d-block " src="../pic/user_placeholder.png" height="100px">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p lass="card-text  mt-3">
+                        <b>自我描述：</b>尊师重道，想要补习生理课，最好可以多看多学多做，爱护学生<br>
+                        <b>注册时间：</b>2017-05-03
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card my-2">
+                <div class="card-block">
+                  <a href="teacherDetail.html" target="_blank">
+                    <h5 class="card-subtitle text-info">‏@豆豆 </h5>
+                  </a>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <p class="card-text  mt-3">
+                        <b>上课时间：</b>周一到周日晚上<br/>
+                        <b>所在城区：</b>红灯区<br/>
+                        <b>教员身份：</b>幼儿园<br/>
+                        <b>擅长课程：</b>英语、数学、物理
+                      </p>
+                    </div>
+                    <div class="col-md-4">
+                      <img class="rounded-circle  mx-auto d-block " src="../pic/user_placeholder.png" height="100px">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p lass="card-text  mt-3">
+                        <b>自我描述：</b>尊师重道，想要补习生理课，最好可以多看多学多做，爱护学生<br>
+                        <b>注册时间：</b>2017-05-03
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card my-2">
+                <div class="card-block">
+                  <a href="teacherDetail.html" target="_blank">
+                    <h5 class="card-subtitle text-info">‏@豆豆 </h5>
+                  </a>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <p class="card-text  mt-3">
+                        <b>上课时间：</b>周一到周日晚上<br/>
+                        <b>所在城区：</b>红灯区<br/>
+                        <b>教员身份：</b>幼儿园<br/>
+                        <b>擅长课程：</b>英语、数学、物理
+                      </p>
+                    </div>
+                    <div class="col-md-4">
+                      <img class="rounded-circle  mx-auto d-block " src="../pic/user_placeholder.png" height="100px">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p lass="card-text  mt-3">
+                        <b>自我描述：</b>尊师重道，想要补习生理课，最好可以多看多学多做，爱护学生<br>
+                        <b>注册时间：</b>2017-05-03
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card my-2">
+                <div class="card-block">
+                  <a href="teacherDetail.html" target="_blank">
+                    <h5 class="card-subtitle text-info">‏@豆豆 </h5>
+                  </a>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <p class="card-text  mt-3">
+                        <b>上课时间：</b>周一到周日晚上<br/>
+                        <b>所在城区：</b>红灯区<br/>
+                        <b>教员身份：</b>幼儿园<br/>
+                        <b>擅长课程：</b>英语、数学、物理
+                      </p>
+                    </div>
+                    <div class="col-md-4">
+                      <img class="rounded-circle  mx-auto d-block " src="../pic/user_placeholder.png" height="100px">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p lass="card-text  mt-3">
+                        <b>自我描述：</b>尊师重道，想要补习生理课，最好可以多看多学多做，爱护学生<br>
+                        <b>注册时间：</b>2017-05-03
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card my-2">
+                <div class="card-block">
+                  <a href="teacherDetail.html" target="_blank">
+                    <h5 class="card-subtitle text-info">‏@豆豆 </h5>
+                  </a>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <p class="card-text  mt-3">
+                        <b>上课时间：</b>周一到周日晚上<br/>
+                        <b>所在城区：</b>红灯区<br/>
+                        <b>教员身份：</b>幼儿园<br/>
+                        <b>擅长课程：</b>英语、数学、物理
+                      </p>
+                    </div>
+                    <div class="col-md-4">
+                      <img class="rounded-circle  mx-auto d-block " src="../pic/user_placeholder.png" height="100px">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p lass="card-text  mt-3">
+                        <b>自我描述：</b>尊师重道，想要补习生理课，最好可以多看多学多做，爱护学生<br>
+                        <b>注册时间：</b>2017-05-03
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card my-2">
+                <div class="card-block">
+                  <a href="teacherDetail.html" target="_blank">
+                    <h5 class="card-subtitle text-info">‏@豆豆 </h5>
+                  </a>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <p class="card-text  mt-3">
+                        <b>上课时间：</b>周一到周日晚上<br/>
+                        <b>所在城区：</b>红灯区<br/>
+                        <b>教员身份：</b>幼儿园<br/>
+                        <b>擅长课程：</b>英语、数学、物理
+                      </p>
+                    </div>
+                    <div class="col-md-4">
+                      <img class="rounded-circle  mx-auto d-block " src="../pic/user_placeholder.png" height="100px">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p lass="card-text  mt-3">
+                        <b>自我描述：</b>尊师重道，想要补习生理课，最好可以多看多学多做，爱护学生<br>
+                        <b>注册时间：</b>2017-05-03
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card my-2">
+                <div class="card-block">
+                  <a href="teacherDetail.html" target="_blank">
+                    <h5 class="card-subtitle text-info">‏@豆豆 </h5>
+                  </a>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <p class="card-text  mt-3">
+                        <b>上课时间：</b>周一到周日晚上<br/>
+                        <b>所在城区：</b>红灯区<br/>
+                        <b>教员身份：</b>幼儿园<br/>
+                        <b>擅长课程：</b>英语、数学、物理
+                      </p>
+                    </div>
+                    <div class="col-md-4">
+                      <img class="rounded-circle  mx-auto d-block " src="../pic/user_placeholder.png" height="100px">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p lass="card-text  mt-3">
+                        <b>自我描述：</b>尊师重道，想要补习生理课，最好可以多看多学多做，爱护学生<br>
+                        <b>注册时间：</b>2017-05-03
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card my-2">
+                <div class="card-block">
+                  <a href="teacherDetail.html" target="_blank">
+                    <h5 class="card-subtitle text-info">‏@豆豆 </h5>
+                  </a>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <p class="card-text  mt-3">
+                        <b>上课时间：</b>周一到周日晚上<br/>
+                        <b>所在城区：</b>红灯区<br/>
+                        <b>教员身份：</b>幼儿园<br/>
+                        <b>擅长课程：</b>英语、数学、物理
+                      </p>
+                    </div>
+                    <div class="col-md-4">
+                      <img class="rounded-circle  mx-auto d-block " src="../pic/user_placeholder.png" height="100px">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p lass="card-text  mt-3">
+                        <b>自我描述：</b>尊师重道，想要补习生理课，最好可以多看多学多做，爱护学生<br>
+                        <b>注册时间：</b>2017-05-03
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card my-2">
+                <div class="card-block">
+                  <a href="teacherDetail.html" target="_blank">
+                    <h5 class="card-subtitle text-info">‏@豆豆 </h5>
+                  </a>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <p class="card-text  mt-3">
+                        <b>上课时间：</b>周一到周日晚上<br/>
+                        <b>所在城区：</b>红灯区<br/>
+                        <b>教员身份：</b>幼儿园<br/>
+                        <b>擅长课程：</b>英语、数学、物理
+                      </p>
+                    </div>
+                    <div class="col-md-4">
+                      <img class="rounded-circle  mx-auto d-block " src="../pic/user_placeholder.png" height="100px">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p lass="card-text  mt-3">
+                        <b>自我描述：</b>尊师重道，想要补习生理课，最好可以多看多学多做，爱护学生<br>
+                        <b>注册时间：</b>2017-05-03
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card my-2">
+                <div class="card-block">
+                  <a href="teacherDetail.html" target="_blank">
+                    <h5 class="card-subtitle text-info">‏@豆豆 </h5>
+                  </a>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <p class="card-text  mt-3">
+                        <b>上课时间：</b>周一到周日晚上<br/>
+                        <b>所在城区：</b>红灯区<br/>
+                        <b>教员身份：</b>幼儿园<br/>
+                        <b>擅长课程：</b>英语、数学、物理
+                      </p>
+                    </div>
+                    <div class="col-md-4">
+                      <img class="rounded-circle  mx-auto d-block " src="../pic/user_placeholder.png" height="100px">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p lass="card-text  mt-3">
+                        <b>自我描述：</b>尊师重道，想要补习生理课，最好可以多看多学多做，爱护学生<br>
+                        <b>注册时间：</b>2017-05-03
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <nav style="text-align: right;">
+                <ul class="pagination" >
+                  <li class="page-item">
+                    <a class="page-link text-info" href="#" aria-label="Previous"> <span aria-hidden="true">«</span> <span class="sr-only">Previous</span> </a>
+                  </li>
+                  <li class="page-item"> <a class="page-link text-info" href="#">1</a> </li>
+                  <li class="page-item"> <a class="page-link text-info" href="#">2</a> </li>
+                  <li class="page-item">
+                    <a class="page-link text-info" href="#" aria-label="Next"> <span aria-hidden="true">»</span> <span class="sr-only">Next</span> </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="py-3 section text-center">
+            <footer>
+              <hr>
+              <p>Copyright © 2017 All Rights Reserved 亳州家教网 版权所有 by <a  class="text-info" href="#">有间工作室</a></p>
+            </footer>
+          </div>
+          <!-- Bootstrap core JavaScript
+          ================================================== -->
+          <!-- Placed at the end of the document so the pages load faster -->
+          <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+          <script>window.jQuery || document.write('<script src="../js/jquery.min.js"><\/script>')</script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+          <script src="../js/bootstrap.min.js"></script>
+          <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+          <script src="../js/ie10-viewport-bug-workaround.js"></script>
+          <!-- Placed at the end of the document so the pages load faster -->
+        </body>
+      </html>
